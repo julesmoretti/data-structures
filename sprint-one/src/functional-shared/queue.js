@@ -1,7 +1,7 @@
 var makeQueue = function(){
   var instance = {};
 
-  _.extend(instance, queueMethods)
+  _.extend(instance, queueMethods);
 
   instance._back = 0; //removed values (largest value)
   instance._front = 0; //added values (smallest value)
