@@ -16,7 +16,7 @@ var makeQueue = function(){
   // Remove and return the string at the front of the queue
   instance.dequeue = function(){
     if (back !== front) {
-      var result = storage[front]; 
+      var result = storage[front];
       delete storage[front];
       front++;
       return result;
